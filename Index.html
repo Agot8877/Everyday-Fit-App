@@ -1,0 +1,108 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+		<title>Home</title>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="Joel/css/bootstrap.min.css">
+		
+		<!--Style-->
+		<link rel="stylesheet" href="Style/simple-sidebar.css">
+	
+	</head>
+		<div id="wrapper">
+
+			<!-- Sidebar -->
+			<div id="sidebar-wrapper">
+				<ul class="sidebar-nav">
+					<div class="logo_container">
+						<img class="image_logo" src="Images/logo.jpg"/>
+						<div class="title">Everyday Fit App</div>
+					</div>
+					<br><br><br><br><br><br><br><br><br>
+					<li>
+						<a href="Index.html">Training Plans</a>
+					</li>
+					<li>
+						<a href="Reminder.html">Reminder</a>
+					</li>
+					<li>
+						<a href="#">Report</a>
+					</li>
+					<li class="sidebar-brand">
+						<a href="login.html" class="logout" title="Log out" class="logout" onclick="logout()"><span class="glyphicon glyphicon-log-out"></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Logout</a>
+					</li>
+						
+				</ul>
+			</div>
+			<!-- /#sidebar-wrapper -->
+
+			<!-- Page Content -->
+			<div id="page-content-wrapper">
+				<div class="container" id="dot"> 
+					
+					<a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Menu</a>
+				</div>
+			</div>
+
+		</div>
+			<!-- /#wrapper -->
+
+			<!-- Bootstrap core JavaScript -->
+			<script src="Menu/jquery/jquery.min.js"></script>
+			<script src="Menu/bootstrap/js/bootstrap.bundle.min.js"></script>
+	
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script><br><br><br>
+<body>
+	<div class="card text-center">
+	  <div class="card-body">
+		<h4 class="card-title">Full Body Exercise</h4>
+		<p class="card-text">This is a Full body Home Workout Exercise.</p>
+		<a href="Full.html" class="btn btn-primary">Become Fit Now!</a>
+	  </div>
+	</div>
+	
+	<div class="row">
+	  <div class="col-sm-6">
+		<div class="card">
+		  <div class="card-body">
+			<center><h4 class="card-title">Chest</h4>
+			<a href="Chest.html" class="btn btn-primary">Go</a></center>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col-sm-6">
+		<div class="card">
+		  <div class="card-body">
+			<center><h4 class="card-title">Abs</h4>
+			<a href="Abs.html" class="btn btn-primary">Go</a></center>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="col-sm-6">
+		<div class="card">
+		  <div class="card-body">
+			<center><h4 class="card-title">Shoulder and Back</h4>
+			<a href="SandB.html" class="btn btn-primary">Go</a></center>
+		  </div>
+		</div>
+	  </div>
+	  <div class="col-sm-6">
+		<div class="card">
+		  <div class="card-body">
+			<center><h4 class="card-title">Leg</h4>
+			<a href="Leg.html" class="btn btn-primary">Go</a></center>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </body>
+</html>
